@@ -39,7 +39,7 @@ section, footer{
     margin:0 auto;
     border: 1px solid red; /* DA CANCELLARE */
 }
-/* TOPBAR E HEADER */
+/* TOPBAR */
 #topbar, header nav{
     height: 70px;
 }
@@ -74,7 +74,7 @@ section, footer{
 #topbar .fa-globe-europe{
     padding-right:5px;
 }
-#topbar .fa-chevron-down{
+.fa-chevron-down{
     padding-left:5px;
 }
 #topbar .cta-container{
@@ -113,8 +113,20 @@ button a{
 .btn-big{
     padding:13px 20px;
 }
-header nav{
-
+/* HEADER TOP */
+header{
+    margin-top:70px;
+}
+.header-top nav{
+    text-transform: capitalize;
+    float:right;
+}
+.header-top #logo{
+    float:left;
+}
+.header-top ul li{
+    padding: 0 10px;
+    float:left;
 }
 header #banner{
     height:500px;
