@@ -1,4 +1,5 @@
 *{
+
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -8,9 +9,11 @@
     clear: both;
     display: table;
 }
-header, section, footer{
+/* ALTEZZE DA CANCELLARE */
+section, footer{
     height:400px;
 }
+/* COLORI DI SFONDO */
 .bg-white{
     background-color: #fff;
 }
@@ -22,4 +25,21 @@ header, section, footer{
 }
 .bg-grey{
     background-color: #33475b;
+}
+/* TOPBAR E HEADER */
+#topbar, header nav{
+    height: 70px;
+}
+
+header nav{
+
+}
+header #banner{
+    height:500px;
+}
+header hr{
+    height: 70px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: aqua;
 }
