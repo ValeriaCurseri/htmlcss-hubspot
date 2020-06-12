@@ -26,6 +26,14 @@ section, footer{
 .bg-grey{
     background-color: #33475b;
 }
+/* CONTAINER */
+.container{
+    width: 75%;
+    max-width: 1200px;
+    height: 100%;
+    margin:0 auto;
+    border: 1px solid red;
+}
 /* TOPBAR E HEADER */
 #topbar, header nav{
     height: 70px;
