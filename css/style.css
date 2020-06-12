@@ -12,7 +12,14 @@
 /* FONT */
 body{
     font-family: 'Montserrat', sans-serif;
-        color:rgb(51,71,91);
+    color:rgb(51,71,91);
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 14px;
+    line-height: 30px;
 }
 /* ALTEZZE DA CANCELLARE */
 section, footer{
@@ -74,7 +81,7 @@ section, footer{
 #topbar .fa-globe-europe{
     padding-right:5px;
 }
-.fa-chevron-down{
+#topbar .fa-chevron-down{
     padding-left:5px;
 }
 #topbar .cta-container{
@@ -110,9 +117,6 @@ button a{
 .btn-small{
     padding: 8px 10px;
 }
-.btn-big{
-    padding:13px 20px;
-}
 /* HEADER TOP */
 header{
     margin-top:70px;
@@ -120,6 +124,8 @@ header{
 .header-top nav{
     text-transform: capitalize;
     float:right;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 }
 .header-top #logo{
     float:left;
@@ -127,9 +133,34 @@ header{
 .header-top ul li{
     padding: 0 10px;
     float:left;
+    line-height: 70px;
+    list-style: none;
 }
+.header-top ul li a{
+    color:rgb(51,71,91);
+    text-decoration: none;
+}
+.header-top .fa-chevron-down{
+    padding-left:10px;
+}
+/* BANNER */
 header #banner{
     height:500px;
+    background-image: url('../img/bg-jumbotron.png');
+}
+.jumbotron{
+    width:50%;
+}
+.btn-big{
+    padding:13px 30px;
+    margin:20px 0;
+    display: block;
+}
+.jumbotron h1{
+    margin:20px 0;
+}
+.jumbotron span{
+    font-size: 12px;
 }
 header hr{
     height: 70px;
