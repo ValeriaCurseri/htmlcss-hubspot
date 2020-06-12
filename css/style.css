@@ -8,3 +8,18 @@
     clear: both;
     display: table;
 }
+header, section, footer{
+    height:400px;
+}
+.bg-white{
+    background-color: #fff;
+}
+.bg-lightgrey{
+    background-color: #f5f8fa;
+}
+.bg-blue{
+    background-color: #00ABB5
+}
+.bg-grey{
+    background-color: #33475b;
+}
