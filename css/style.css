@@ -9,6 +9,11 @@
     clear: both;
     display: table;
 }
+/* FONT */
+body{
+    font-family: 'Montserrat', sans-serif;
+        color:rgb(51,71,91);
+}
 /* ALTEZZE DA CANCELLARE */
 section, footer{
     height:400px;
@@ -38,7 +43,67 @@ section, footer{
 #topbar, header nav{
     height: 70px;
 }
-
+#topbar{
+    text-transform: capitalize;
+}
+#topbar ul{
+    float: left;
+    list-style:none;
+    line-height: 70px;
+}
+#topbar ul li{
+    float:left;
+    padding: 0 10px;
+    border-right: 2px solid grey;
+}
+#topbar ul li:first-child{
+    padding-left: 0;
+}
+#topbar ul li:last-child{
+    border:none;
+}
+#topbar ul li a{
+    text-decoration: none;
+    color:rgb(51,71,91);
+}
+#topbar .fa-globe-europe{
+    padding-right:5px;
+}
+#topbar .fa-chevron-down{
+    padding-left:5px;
+}
+#topbar .cta-container{
+    float:right;
+    line-height:70px;
+}
+button{
+    font-size: 11px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
+button a{
+    text-decoration: none;
+}
+.btn{
+    border: 1px solid #ff7a59;
+    border-radius: 5px;
+}
+.btn-pieno{
+    background-color:#ff7a59;
+}
+.btn-pieno a{
+    color:white;
+}
+.btn-vuoto a{
+    color:#ff7a59;
+}
+.btn-small{
+    padding: 8px 10px;
+}
+.btn-big{
+    padding:13px 20px;
+}
 header nav{
 
 }
