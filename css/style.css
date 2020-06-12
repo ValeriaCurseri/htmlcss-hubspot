@@ -22,7 +22,7 @@ p{
     line-height: 30px;
 }
 /* ALTEZZE DA CANCELLARE */
-section, footer{
+section.bg-blue, section.bg-white, footer{
     height:400px;
 }
 /* COLORI DI SFONDO */
@@ -170,4 +170,40 @@ header hr{
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     background-color: aquamarine;
+}
+/* SECTION */
+.lightgrey h2, .lightgrey h3, .white h2, .white h3{
+    text-transform: capitalize;
+}
+.container-70{
+    width:70%;
+    max-width:1200px;
+    text-align: center;
+    margin:50px auto;
+}
+.card{
+    background-color: white;
+    box-shadow: 0px 0px 3px 3px lightgrey;
+    border-radius: 5px;
+}
+.card-large{
+    padding: 50px;
+}
+.card-small{
+    height:300px;
+    width:33.3333%;
+    float: left;
+    margin:50px 0;
+}
+.container-33{
+    width:33.3333%;
+    float:left;
+    text-align: center;
+}
+.container-33 button{
+    margin:20px auto;
+}
+.container-66{
+    width:66.6666%;
+    float:left;
 }
