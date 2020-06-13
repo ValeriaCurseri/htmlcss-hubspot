@@ -171,7 +171,7 @@ header hr{
     border-bottom: 3px solid black;
     background-color: aquamarine;
 }
-/* SECTION */
+/* SECTION LIGHTGREY*/
 .lightgrey h2, .lightgrey h3, .white h2, .white h3{
     text-transform: capitalize;
 }
@@ -260,4 +260,23 @@ header hr{
 }
 .card-small hr{
     margin-bottom:35px;
+}
+/* SECTION BLUE */
+.tabella{
+    text-align: center;
+    color:white;
+}
+.tabella .cell{
+    width:25%;
+    float:left;
+    height:100px;
+    border-right:1px solid white;
+    border-bottom:1px solid aquamarine;
+}
+.tabella .cell:nth-child(4n){
+    border-right:none;
+}
+.cell span{
+    display:inline-block;
+    width:100%
 }
