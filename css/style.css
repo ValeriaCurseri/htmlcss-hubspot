@@ -213,3 +213,16 @@ header hr{
     width:66.6666%;
     float:left;
 }
+.card h3{
+    text-transform: capitalize;
+    margin:20px 0;
+    font-size: 20px;
+}
+.card h4{
+    text-transform: uppercase;
+    margin:15px 0;
+}
+.card i{
+    color: #ff7a59;
+    padding: 0 10px;
+}
