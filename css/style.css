@@ -226,3 +226,17 @@ header hr{
     color: #ff7a59;
     padding: 0 10px;
 }
+.card-large hr{
+    display: inline-block;
+    width: 65%;
+    vertical-align: middle;
+}
+.card-large h4{
+    display: inline-block;
+    margin: 15px 30px 15px 0;
+}
+.card span{
+    font-size: 14px;
+    line-height: 30px;
+    margin-right:10px;
+}
