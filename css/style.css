@@ -189,18 +189,6 @@ header hr{
 .card-large{
     padding: 50px;
 }
-.card-small{
-    height:300px;
-    background-color: white;
-    box-shadow: 0px 0px 5px 5px lightgrey;
-    border-radius: 5px;
-}
-.row .card{
-    width:33.3333%;
-    float: left;
-    margin:50px 0;
-}
-
 .container-33{
     width:33.3333%;
     float:left;
@@ -239,4 +227,37 @@ header hr{
     font-size: 14px;
     line-height: 30px;
     margin-right:10px;
+    text-transform: capitalize;
+}
+.row .card{
+    width:30%;
+    float: left;
+    margin-top:50px;
+    margin-bottom:50px
+}
+.card-small{
+    background-color: white;
+    box-shadow: 0px 0px 5px 5px lightgrey;
+    border-radius: 5px;
+    text-align:center;
+    padding:15px 30px;
+    margin-right:5%;
+}
+.card-small:last-child{
+    margin-right:0;
+}
+.card-small .btn-big{
+    margin:40px auto 0;
+}
+.card-small .partealta{
+    height:300px;
+    margin-bottom:60px;
+}
+.card-small span{
+    text-align: left;
+    display:block;
+    line-height:20px;
+}
+.card-small hr{
+    margin-bottom:35px;
 }
