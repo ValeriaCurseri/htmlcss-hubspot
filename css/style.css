@@ -278,6 +278,8 @@ header hr{
 .tabella .cell{
     width:25%;
     float:left;
+}
+.bg-blue .tabella .cell{
     padding:10px;
     border-right:1px solid white;
     border-bottom:1px solid aquamarine;
@@ -295,12 +297,20 @@ header hr{
     font-size: 40px;
     text-transform: uppercase;
 }
-.contatore::after{
+.bg-blue .contatore::after{
     content: "+";
     font-weight: 400;
     font-size: 20px;
     vertical-align: middle;
 }
-.oggetto{
+.bg-blue .oggetto{
     font-size: 12px;
+}
+/* FASCIA BIANCA */
+.bg-white span{
+    display:block;
+    text-align: left;
+}
+.bg-white .tabella .cell{
+    padding:20px;
 }
