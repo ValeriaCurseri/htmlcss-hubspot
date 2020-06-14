@@ -22,7 +22,7 @@ p{
     line-height: 30px;
 }
 /* ALTEZZE DA CANCELLARE */
-section.bg-white, footer{
+footer{
     height:400px;
 }
 /* COLORI DI SFONDO */
@@ -57,6 +57,7 @@ section.bg-white, footer{
     position: fixed;
     top:0;
     width:100%;
+    z-index: 1;
 }
 #topbar ul{
     float: left;
@@ -264,7 +265,7 @@ header hr{
 }
 /* SECTION BLUE */
 .bg-blue{
-    padding: 60px 0 120px;
+    padding: 60px 0 100px;
     text-align: center;
     color:white;
 }
@@ -307,10 +308,36 @@ header hr{
     font-size: 12px;
 }
 /* FASCIA BIANCA */
+.prima-fascia, .seconda-fascia{
+    margin:60px 0;
+}
 .bg-white span{
     display:block;
     text-align: left;
 }
 .bg-white .tabella .cell{
     padding:20px;
+}
+.bg-white .container-33{
+    padding:0 70px 0 60px;
+}
+.container-50{
+    width:50%;
+    float:left;
+    position: relative;
+}
+.container-50 h2{
+    margin:30px 0 20px;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 30px;
+}
+.container-50 span{
+    font-size: 12px;
+}
+.container-50 img{
+    position: absolute;
+    right:0;
+    z-index: 0;
 }
