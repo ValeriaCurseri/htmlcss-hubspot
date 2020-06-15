@@ -355,6 +355,10 @@ footer{
 }
 .traduci li{
     float:left;
+    padding: 0 10px;
+}
+.traduci ul{
+    display:inline-block;
 }
 footer h5{
     margin-bottom:20px;
@@ -389,16 +393,14 @@ footer .social i{
 footer img{
     display:block;
 }
-footer .piede{
-    position: relative;
-}
-footer .legal-stuff{
+footer .legal-stuff ul{
     position:absolute;
-    top:50%;
     right:0;
-    transform: translateY(-50%);
 }
 footer .legal-stuff li{
     float:left;
     padding-left: 20px;
+}
+footer hr{
+    margin-bottom:30px;
 }
