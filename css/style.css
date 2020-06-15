@@ -278,8 +278,10 @@ header hr{
 }
 .bg-blue .tabella .cell{
     padding:10px;
+}
+.bg-blue .tabella .cell:not(:nth-child(4n)){
     border-right:1px solid white;
-    border-bottom:1px solid aquamarine;
+    /* border-bottom:1px solid aquamarine; */
 }
 .tabella .cell:nth-child(4n){
     border-right:none;
@@ -332,7 +334,7 @@ h2{
 .container-50 span{
     font-size: 12px;
 }
-.container-50 img{
+.bg-white .container-50 img{
     position: absolute;
     right:0;
     z-index: 0;
@@ -340,6 +342,8 @@ h2{
 /* FOOTER */
 footer{
     color:white;
+    padding: 20px 0;
+    text-transform: capitalize;
 }
 .container-25{
     width:25%;
@@ -347,14 +351,54 @@ footer{
 }
 .traduci{
     text-align: center;
+    margin: 60px auto 20px;
 }
 .traduci li{
     float:left;
 }
+footer h5{
+    margin-bottom:20px;
+}
 footer ul{
     list-style: none;
+}
+footer li{
+    padding-bottom:10px;
 }
 footer li a{
     text-decoration: none;
     color:white;
+    font-size: 14px;
+}
+footer i{
+    color:white;
+}
+footer .btn{
+    background-color: white;
+    border: none;
+    margin: 10px 0 20px;
+}
+footer .btn-pieno a{
+    color: #33475b!important;
+    font-weight: 600;
+}
+footer .social i{
+    font-size:16px;
+    margin-right:20px;
+}
+footer img{
+    display:block;
+}
+footer .piede{
+    position: relative;
+}
+footer .legal-stuff{
+    position:absolute;
+    top:50%;
+    right:0;
+    transform: translateY(-50%);
+}
+footer .legal-stuff li{
+    float:left;
+    padding-left: 20px;
 }
