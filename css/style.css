@@ -41,7 +41,6 @@ p{
     max-width: 1200px;
     height: 100%;
     margin:0 auto;
-    border: 1px solid red; /* DA CANCELLARE */
 }
 /* TOPBAR */
 #topbar, header nav{
@@ -148,9 +147,12 @@ header #banner{
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .jumbotron{
-    width:50%;
+    width:40%;
+    position:absolute;
+    top:10%;
 }
 .btn-big{
     padding:13px 30px;
@@ -177,7 +179,8 @@ header hr{
     width:70%;
     max-width:1200px;
     text-align: center;
-    margin:50px auto;
+    margin:0 auto;
+    padding: 50px 0;
 }
 .card{
     background-color: white;
@@ -281,7 +284,6 @@ header hr{
 }
 .bg-blue .tabella .cell:not(:nth-child(4n)){
     border-right:1px solid white;
-    /* border-bottom:1px solid aquamarine; */
 }
 .bg-blue .tabella .row:not(:last-child){
     border-bottom:1px solid aquamarine;
@@ -316,6 +318,10 @@ header hr{
     display:block;
     text-align: left;
 }
+.bg-white .descrizione{
+    line-height: 30px;
+    padding-top:40px;
+}
 .bg-white .tabella .cell{
     padding:20px;
 }
@@ -345,7 +351,7 @@ h2{
 /* FOOTER */
 footer{
     color:white;
-    padding: 20px 0;
+    padding: 40px 0;
     text-transform: capitalize;
 }
 .container-25{
