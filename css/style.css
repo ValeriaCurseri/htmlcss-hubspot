@@ -123,6 +123,13 @@ button a{
     position: absolute;
     z-index:3;
 }
+.menu-tendina h4{
+    font-size: 16px;
+}
+.menu-tendina p{
+    font-size: 12px;
+    line-height: 20px;
+}
 .triangolo{
     width:20px;
     height:20px;
@@ -157,6 +164,17 @@ button a{
 #menu-english .triangolo{
     top:-10px;
     left:80px;
+}
+/* MENU PARTNER */
+#menu-partners{
+    top: 130px;
+    right: 200px;
+    padding:20px 30px;
+    width:700px;
+}
+#menu-partners .triangolo{
+    top:-10px;
+    right:63px;
 }
 /* HEADER TOP */
 header{
