@@ -62,7 +62,7 @@ p{
 #topbar ul li{
     float:left;
     padding: 0 10px;
-    border-right: 2px solid grey;
+    border-right: 2px solid lightgrey;
     margin: 25px 0;
 }
 #topbar ul li:first-child{
@@ -282,6 +282,9 @@ header hr{
 .bg-blue .tabella .cell:not(:nth-child(4n)){
     border-right:1px solid white;
     /* border-bottom:1px solid aquamarine; */
+}
+.bg-blue .tabella .row:not(:last-child){
+    border-bottom:1px solid aquamarine;
 }
 .tabella .cell:nth-child(4n){
     border-right:none;
