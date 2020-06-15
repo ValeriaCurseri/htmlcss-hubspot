@@ -49,6 +49,7 @@ p{
 #topbar{
     text-transform: capitalize;
     border-bottom: 1px solid black;
+    border-radius: 5px;
     position: fixed;
     top:0;
     width:100%;
@@ -58,13 +59,13 @@ p{
     float: left;
     list-style:none;
 }
-#topbar ul li{
+#topbar .info li{
     float:left;
     padding: 0 10px;
     border-right: 2px solid lightgrey;
     margin: 25px 0;
 }
-#topbar ul li:first-child{
+#topbar .intro li:first-child{
     padding-left: 0;
 }
 #topbar ul li:last-child{
@@ -113,6 +114,49 @@ button a{
 }
 .btn-small{
     padding: 8px 10px;
+}
+/* MENU TENDINA */
+.menu-tendina{
+    background-color: white;
+    border:1px solid lightgrey;
+    border-radius: 3px;
+    position: absolute;
+    z-index:3;
+}
+.triangolo{
+    width:20px;
+    height:20px;
+    background-color: white;
+    border:1px solid lightgrey;
+    border-radius: 3px;
+    position: absolute;
+    z-index:2;
+    transform: rotate(45deg);
+}
+/* MENU ENGLISH */
+#menu-english{
+    width:130px;
+    float:none;
+    top: 60px;
+    font-size: 24px;
+    font-weight: 600;
+    padding:5px 0;
+}
+#menu-english li a{
+    line-height: 36px;
+}
+#menu-english li{
+    padding: 0 20px;
+}
+#menu-english a:hover /*+ #menu-english li*/{
+    background-color: lightgrey;
+}
+#english:hover #menu-english{
+    display:block;
+}
+#menu-english .triangolo{
+    top:-10px;
+    left:80px;
 }
 /* HEADER TOP */
 header{
