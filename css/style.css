@@ -58,12 +58,12 @@ p{
 #topbar ul{
     float: left;
     list-style:none;
-    line-height: 70px;
 }
 #topbar ul li{
     float:left;
     padding: 0 10px;
     border-right: 2px solid grey;
+    margin: 25px 0;
 }
 #topbar ul li:first-child{
     padding-left: 0;
