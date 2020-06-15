@@ -61,15 +61,14 @@ p{
 }
 #topbar .info li{
     float:left;
-    padding: 0 10px;
-    border-right: 2px solid lightgrey;
-    margin: 25px 0;
+    padding: 25px 10px;
 }
-#topbar .intro li:first-child{
+#topbar .info li:first-child{
     padding-left: 0;
 }
-#topbar ul li:last-child{
-    border:none;
+#topbar .info li:not(:last-of-type)::after{
+    content:"|";
+    color:lightgrey;
 }
 #topbar ul li a{
     text-decoration: none;
@@ -80,7 +79,7 @@ p{
     padding-right:5px;
 }
 #topbar .fa-chevron-down{
-    padding-left:5px;
+    padding: 0 15px 0 5px;
 }
 #topbar .cta-container{
     float:right;
@@ -117,11 +116,12 @@ button a{
 }
 /* MENU TENDINA */
 .menu-tendina{
+    display:none;
     background-color: white;
     border:1px solid lightgrey;
     border-radius: 3px;
     position: absolute;
-    z-index:3;
+    z-index:2;
 }
 .menu-tendina h4{
     font-size: 16px;
@@ -131,16 +131,28 @@ button a{
     line-height: 20px;
 }
 .triangolo{
+    display:none;
     width:20px;
     height:20px;
     background-color: white;
-    border:1px solid lightgrey;
-    border-radius: 3px;
+    border-top: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-radius: 3px 0 0 0;
     position: absolute;
-    z-index:2;
+    z-index:3;
     transform: rotate(45deg);
 }
+.hover-azzurro{
+    padding:10px 15px;
+    border-radius: 3px;
+}
+.hover-azzurro:hover{
+    background-color: lightblue;
+}
 /* MENU ENGLISH */
+#english{
+    position:relative;
+}
 #menu-english{
     width:130px;
     float:none;
@@ -155,21 +167,24 @@ button a{
 #menu-english li{
     padding: 0 20px;
 }
-#menu-english a:hover /*+ #menu-english li*/{
+#menu-english a:hover #menu-english li{
     background-color: lightgrey;
 }
 #english:hover #menu-english{
     display:block;
 }
-#menu-english .triangolo{
-    top:-10px;
-    left:80px;
+#english:hover .triangolo{
+    display:block;
+}
+#english .triangolo{
+    top:50px;
+    right:30px;
 }
 /* MENU PARTNER */
 #menu-partners{
     top: 130px;
     right: 200px;
-    padding:20px 30px;
+    padding:10px 15px;
     width:700px;
 }
 #menu-partners .triangolo{
