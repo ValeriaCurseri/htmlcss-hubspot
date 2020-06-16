@@ -181,11 +181,18 @@ button a{
     right:30px;
 }
 /* MENU PARTNER */
+#partners:hover #menu-partners{
+    display:block;
+}
+#partners:hover .triangolo{
+    display:block;
+}
 #menu-partners{
     top: 130px;
     right: 200px;
-    padding:10px 15px;
+    padding:14px 15px;
     width:700px;
+    text-transform: none;
 }
 #menu-partners .triangolo{
     top:-10px;
