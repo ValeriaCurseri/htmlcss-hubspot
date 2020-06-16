@@ -59,14 +59,14 @@ p{
     float: left;
     list-style:none;
 }
-#topbar .info li{
+#topbar .info > li{
     float:left;
     padding: 25px 10px;
 }
-#topbar .info li:first-child{
+#topbar .info > li:first-child{
     padding-left: 0;
 }
-#topbar .info li:not(:last-of-type)::after{
+#topbar .info > li:not(:last-of-type)::after{
     content:"|";
     color:lightgrey;
 }
@@ -154,12 +154,15 @@ button a{
     position:relative;
 }
 #menu-english{
-    width:130px;
+    width:120px;
     float:none;
     top: 60px;
     font-size: 24px;
     font-weight: 600;
-    padding:5px 0;
+    padding:13px 0;
+}
+#english:hover #menu-english{
+    display:block;
 }
 #menu-english li a{
     line-height: 36px;
@@ -167,11 +170,8 @@ button a{
 #menu-english li{
     padding: 0 20px;
 }
-#menu-english a:hover #menu-english li{
+#menu-english li:hover{
     background-color: lightgrey;
-}
-#english:hover #menu-english{
-    display:block;
 }
 #english:hover .triangolo{
     display:block;
